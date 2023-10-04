@@ -1,0 +1,13 @@
+                                                                            For Text to Voice
+pip install pywin32
+then
+    import win32com.client as wincom
+    then use
+    speak = wincom.Dispatch("SAPI.SpVoice")
+    then a text is needed to pronounce like; text = "Python text-to-speech test. using win32com.client"
+    speak.Speak(text)
+
+
+
+
+    2.25.56 hours
